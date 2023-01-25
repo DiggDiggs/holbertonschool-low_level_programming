@@ -1,6 +1,6 @@
 /*
  * File: 5-printf.c
- * Auth: Chris Diggs 
+ * Auth: Chris Diggs
  */
 
 #include <stdio.h>
