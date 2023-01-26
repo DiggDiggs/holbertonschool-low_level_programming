@@ -1,6 +1,6 @@
 /*
- * File: 8-print_base16.c
- * Auth: Christopher Diggs
+ * File: 9-print_comb.c
+ * Auth: Chris D.
  */
 
 #include <stdio.h>
