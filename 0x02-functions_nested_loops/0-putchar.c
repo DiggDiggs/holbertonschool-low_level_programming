@@ -7,7 +7,7 @@ int main(void)
 {
 	int pp[9] = { '_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\n' };
 	int i = 0;
-	while( i < 9 )
+	while (i < 9)
 	{
 		putchar(pp[i]);
 		i++;
