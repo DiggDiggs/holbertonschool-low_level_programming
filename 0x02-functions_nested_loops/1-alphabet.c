@@ -1,5 +1,5 @@
 /**
- * prints alphabet 
+ * prints alphabet
  * Return: void
  */
 #include"main.h"
