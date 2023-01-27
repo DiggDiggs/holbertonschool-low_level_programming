@@ -3,7 +3,7 @@
  * Auth: Chris D.
  */
 
-#include "_putchar"
+#include "main.h"
 
 /**
  * main - Prints "_putchar" followed by a new line.
