@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _PUTCHAR
+#define _pUTCHAR 
 
 /*
  * File: main.h
