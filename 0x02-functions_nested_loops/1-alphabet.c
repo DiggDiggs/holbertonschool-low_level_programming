@@ -2,7 +2,7 @@
  * main - a..z
  * Return: returns 0
  */
-#include "main.h"
+#include "_putchar"
 
 /**
  * print_alphabet - prints the alphabet in lowercase, followed by a new line.
