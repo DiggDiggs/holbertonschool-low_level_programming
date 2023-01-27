@@ -10,7 +10,7 @@ int main(void)
 
 	while (i < 9)
 	{
-		_putchar(pp[i]);
+		putchar(pp[i]);
 		i++;
 	}
 
