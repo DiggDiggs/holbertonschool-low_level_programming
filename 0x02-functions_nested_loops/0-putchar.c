@@ -1,19 +1,17 @@
-/*
- * File: 0-holberton.c
- * Auth: Chris D.
- */
-
-#include "main.h"
-
 /**
- * main - Prints "_putchar" followed by a new line.
- *
- * Return: Always 0.
+ * main - jbghjdchdfsfjggj
+ * Return: return 0
  */
+#include"main.h"
 int main(void)
 {
-	_putchar('_putchar');
-	_putchar('\n');
-	
+int pp[9] = { '_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\n' };
+int i = 0;
+while (i < 9)
+{
+	putchar(pp[i]);
+	i++;
+}
+
 	return (0);
 }
