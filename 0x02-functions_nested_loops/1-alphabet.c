@@ -5,11 +5,11 @@
 #include"main.h"
 void print_alphabet(void)
 {
-	char ab = 'a';
-	while (ab <= 'z')
+	char ab;
+
+	while (ab = 'a'; ab <= 'z'; ab++)
 	{
 		_putchar(ab);
-		ab++;
 	}
 	return (0);
 }
