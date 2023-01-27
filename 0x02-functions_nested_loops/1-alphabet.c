@@ -1,15 +1,15 @@
 /**
- * main - a..z
- * Return: returns 0
+ * prints alphabet 
+ * Return: void
  */
 #include"main.h"
 void print_alphabet(void)
 {
 	char ab;
 
-	while (ab = 'a'; ab <= 'z'; ab++)
+	for (ab = 'a'; ab <= 'z'; ab++)
 	{
 		_putchar(ab);
 	}
-	return (0);
+
 }
