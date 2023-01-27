@@ -12,6 +12,5 @@ int main(void)
 		putchar(pp[i]);
 		i++;
 	}
-
 	return (0);
 }
