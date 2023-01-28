@@ -1,14 +1,23 @@
 #include "main.h"
 
 /**
- * print_numbers - Prints the numbers from 0-9.
+ * print_alphabet_x10 - Prints the alphabet
  */
-void print_numbers(void)
+#include"main.h"
+void print_alphabet_x10(void)
 {
-	int num;
+	char ab = 'a';
 
-	for (num = 0; num <= 9; num++)
-		_putchar((num % 10) + '0');
+	int i;
 
+	for (i = 0; i < 10; i++)
+	{
+		while (ab <= 'z')
+		{
+			_putchar(ab);
+			ab++;
+		}
+	ab = 'a';
 	_putchar('\n');
+	}
 }
