@@ -1,22 +1,26 @@
-#include "holberton.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
- * strcat - Concatenates the string pointed to by @src, including the terminating
- *          null byte, to the end of the string pointed to by @dest.
- * @dest: A pointer to the string to be concatenated upon.
- * @src: The source string to be appended to @dest.
- *
- * Return: A pointer to the destination string @dest.
+ * _strcat - Main
+ * @dest: char string
+ * @src: char string
+ * Return: return
  */
-char *strcat(char *dest, const char *src)
+
+char *_strcat(char *dest, char *src)
 {
-	int index = 0, dest_len = 0;
+	int a, b, counter = 0;
 
-	while (dest[index++])
-		dest_len++;
-
-	for (index = 0; src[index]; index++)
-		dest[dest_len++] = src[index];
-
+	for (a = 0; dest[a] != '\0'; a++)
+	{
+		counter++;
+	}
+	for (b = 0; src[b] != '\0'; b++)
+	{
+		dest[counter + b] = src[b];
+	}
+	dest[counter + b] = '\0';
 	return (dest);
 }
+
