@@ -1,21 +1,24 @@
 #include "main.h"
-#include <string.h>
 
 /**
- * _memcpy - copy byte from an area to move it
- * @dest: destination from where the byte gonna be moved
- * @src: from where the byte is copied
- * @n: unsigned byte
- * Return: memcpy
+ * _memcpy - copy a memory area
+ * @dest: a pointer to the start of the target area
+ * @src: a pointer to the start of the source area
+ * @n: the number of the bytes to copy
+ *
+ * Description: this function copies n bytes from memory area src to memory
+ * area dest. the memory area must not overlap
+ *
+ * Return: a pointer to dest
  */
-void *_memcpy(void *dest, const void *src, size_t n)
+
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int index;
-	unsigned char *destination = dest;
-	const unsigned char *source = src;
+unsigned int i = 0;
 
-	for (index = 0; index < n; index++)
-		destination[index] = source[index];
-
-	return (dest);
+for (i = 0; i < n; ++i, ++src)
+{
+dest[i] = *src;
+}
+return (dest);
 }
