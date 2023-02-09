@@ -7,7 +7,6 @@
  *       used in the 0x07-pointers_arrays_strings directory.
  */
 
-#include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
 
