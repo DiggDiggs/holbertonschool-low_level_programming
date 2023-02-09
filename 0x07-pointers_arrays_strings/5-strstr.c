@@ -21,13 +21,13 @@ hpos = haystack;
 npos = needle;
 do {
 if (!*npos)
-	{
-	return (haystack);
-	}
+{
+return (haystack);
+}
 if (!*hpos)
-		{
-		return (NULL);
-		}
+{
+return (NULL);
+}
 } while (*hpos++ == *npos++);
 } while (*(++haystack));
 return (NULL);
