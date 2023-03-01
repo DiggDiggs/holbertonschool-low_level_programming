@@ -6,12 +6,12 @@
 
 /**
  * struct dog - attributes
- * @name: the name of the dog 
- * @age: the age of the dog 
- * @owner: the name of the dog's owner 
+ * @name: the name of the dog
+ * @age: the age of the dog
+ * @owner: the name of the dog's owner
  */
 
-typedef struct dog 
+typedef struct dog
 {
 	char *name;
 	float age;
