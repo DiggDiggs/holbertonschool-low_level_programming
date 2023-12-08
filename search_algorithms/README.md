@@ -1,0 +1,1 @@
+readme in c yahh so the point to this project is to reinform me a refresher for me over big O notaion and liner search alg. well lets see what happens if we rember everything with low level programming. 
